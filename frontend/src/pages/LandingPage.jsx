@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "../styles/Landing.css";
+import busImage from "../assets/bus.png";
 
 function LandingPage() {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ function LandingPage() {
 </button>
       {/* Bus container */}
       <div className="bus-container">
-  <img src="/src/assets/bus.png" alt="bus" />
+  <img src={busImage} alt="bus" />
 </div>
 
 
